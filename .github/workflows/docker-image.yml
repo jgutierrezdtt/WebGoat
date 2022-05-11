@@ -1,5 +1,7 @@
 name: Snyk Security Gate
-on: 
+on:
+  push:
+    branches: [ develop ]
   pull_request:
     branches: [ develop ]
 jobs:
