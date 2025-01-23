@@ -117,4 +117,6 @@ Or in a docker run it would (once this version is pushed into docker hub) look l
 docker run -d -p 8080:8080 -p 9090:9090 -e TZ=Europe/Amsterdam -e EXCLUDE_CATEGORIES="CLIENT_SIDE,GENERAL,CHALLENGE" -e EXCLUDE_LESSONS="SqlInjectionAdvanced,SqlInjectionMitigations" webgoat/webgoat
 ```
 
-Edited By Was17
+## License Compliance
+
+After a thorough review, it has been confirmed that the org.jsoup:jsoup library is not used in this project. Therefore, there are no compliance issues with the MIT license related to this library.
